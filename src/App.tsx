@@ -28,6 +28,7 @@ function App() {
       </div>
       <p className="read-the-docs">changed app.tsx</p>
       <img src={bob} />
+      <p>new code</p>
     </>
   );
 }
