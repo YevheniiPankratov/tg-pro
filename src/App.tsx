@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import bob from "./assets/images.png";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">changed app.tsx</p>
+      <img src={bob} />
     </>
   );
 }
